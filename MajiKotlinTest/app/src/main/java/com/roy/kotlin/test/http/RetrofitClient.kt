@@ -1,6 +1,5 @@
 package com.roy.kotlin.test.http
 
-import com.aleyn.mvvm.network.interceptor.LoggingInterceptor
 import okhttp3.ConnectionPool
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -30,6 +29,7 @@ class RetrofitClient {
             .client(getOkHttpClient())
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://api.github.com/")
+//            .baseUrl("https://www.baidu.com/")
             .build()
     }
 
@@ -37,7 +37,7 @@ class RetrofitClient {
 
         return OkHttpClient.Builder()
             .connectTimeout(10L, TimeUnit.SECONDS)
-            .addNetworkInterceptor(LoggingInterceptor())
+//            .addNetworkInterceptor(LoggerInterceptor(true))
             .writeTimeout(10L, TimeUnit.SECONDS)
             .connectionPool(ConnectionPool(8, 15, TimeUnit.SECONDS))
             .build()

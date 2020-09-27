@@ -17,7 +17,8 @@ import org.greenrobot.eventbus.ThreadMode
 class MainActivity : BaseActivity<MainViewModel, ViewDataBinding>() {
     override fun initData() {
         viewModel.getGitHubApi().observe(this, {
-            tvInfo.text = it.toString()
+            tvInfo.text = it.authorizations_url
+
         })
         LoopGetInfoService.start(this)
     }

@@ -44,7 +44,7 @@ class LoopGetInfoService : Service() {
         }
         if (loopGetInfoTask == null) {
             loopGetInfoTask = LoopGetInfoTask()
-            ThreadUtils.executeByIoAtFixRate(loopGetInfoTask, 5, TimeUnit.SECONDS)
+            ThreadUtils.executeByIoAtFixRate(loopGetInfoTask, 10, TimeUnit.SECONDS)
         }
         return super.onStartCommand(intent, flags, startId)
     }

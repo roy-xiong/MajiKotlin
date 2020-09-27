@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.aleyn:MVVMLin:1.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73bc675e46a9b1ef8c5bea646a7c00de/jetified-MVVMLin-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73bc675e46a9b1ef8c5bea646a7c00de/jetified-MVVMLin-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/73bc675e46a9b1ef8c5bea646a7c00de/jetified-MVVMLin-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.aleyn/MVVMLin/1.0.3/8fe134215b3bd0ec48d4f35c7d23cc510b0aab44/MVVMLin-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.aleyn/MVVMLin/1.0.3/57660ba3dad24cc76f240cafd43da5637309210b/MVVMLin-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
